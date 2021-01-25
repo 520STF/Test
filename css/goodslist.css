@@ -1,0 +1,14 @@
+.header{ height: 80px;background: #eee;position: relative;}
+.header h1{text-align: center;line-height: 80px;font-size: 30px;}
+.header a{position: absolute;right: 30px;top: 10px;padding: 10px 20px;font-size: 18px;color: #666666;border: 1px solid #cccccc;transition: .6s;}
+.header a:hover{color: white;background: red;}
+
+.wrap{width: 1200px;margin: 0 auto;overflow: hidden;}
+.main{width: 1300px;margin-top: 30px;}
+
+.goods{float: left;width: 220px; margin: 0 25px 25px 0;box-sizing: border-box;border: 1px solid #ffffff;}
+.goods p{font-size: 16px;}
+.goods:hover{border: 1px solid red;box-sizing: border-box;}
+.goods div{float: left;line-height: 30px;border: 1px solid pink;}
+.goods div:hover{background: pink;color: white;}
+.goods img{width: 220px;height: 220px;display: block;}

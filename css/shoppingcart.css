@@ -1,0 +1,99 @@
+.header{
+    height: 80px;
+    background-color: #eee;
+  }
+  .header h1{
+    text-align: center;
+    line-height: 80px;
+  }
+  .head{
+    overflow: hidden;
+    background-color: #eee;
+    width: 900px;
+    margin: 30px auto 10px;
+    line-height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .head input{
+    float: left;
+    margin-top: 15px;
+  }
+  .head span:nth-of-type(1){
+    float: left;
+  }
+  .head span:nth-of-type(1) input{
+    float: left;
+    margin-right: 5px;
+  }
+  .head span:nth-of-type(2){
+    float: left;
+    margin-left: 100px;
+  }
+  .head span:nth-of-type(3){
+    float: left;
+    margin-left: 330px;
+  }
+  .head span:nth-of-type(4){
+    float: left;
+    margin-left: 100px;
+  }
+  .head span:nth-of-type(5){
+    float: left;
+    margin-left: 130px;
+  }
+  .list{
+    margin-top: 5px;
+    width: 900px;
+    margin: 0 auto;
+  }
+  .list li{
+    padding: 10px 15px;
+    background-color: lightcyan;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .list li input{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    position: relative;
+    left: -5px;
+  }
+  .list li img{
+    float: left;
+    width: 80px;
+    height: 80px;
+  }
+  .list li h3{
+    float: left;
+    width: 300px;
+    margin: 10px 0 0 15px;
+  }
+  .list li p{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .list li span{
+    float: left;
+    width: 20px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .list li em{
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-left: 120px;
+    cursor: pointer;
+  }
+  .list li .add{float: left;width: 30px;height: 30px;}
+  .list li .less{float: left;width: 30px;height: 30px;margin-left: 10px;}
+  .res{width: 900px;margin: 0 auto;}
+  .res .btn{float: right;outline: none;width: 80px;height: 30px;line-height: 30px;background: white;cursor: pointer;}
+  .res .btn:hover{color: white;background: pink;}
+  .res span{float: right;width: 80px;height: 30px;line-height: 30px;background: white;cursor: pointer;}
+  .res p{float: right;width: 80px;height: 30px;line-height: 30px;background: white;cursor: pointer;}
